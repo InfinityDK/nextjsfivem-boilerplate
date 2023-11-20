@@ -28,13 +28,13 @@ Gets data from the FiveM Client.
 
 - `cb` (Type: Function): A callback that returns the result of the function.
 
-Next.js app (With Callback)
+**Next.js app (With Callback)**
 ```js
 SendNuiCallback('whoami', {}, (res) => {
   // do something with the data
 })
 ```
-Next.js app (Without Callback)
+**Next.js app (Without Callback)**
 ```js
 SendNuiCallback('whoami')
 ```
@@ -49,7 +49,7 @@ Registers a callback on the FiveM Client to call from the UI.
 
 - `cb` (Type: Function): A callback that returns some data to the SendNuiCallback.
 
-FiveM Script (Client)
+**FiveM Script (Client)**
 ```lua
 RegisterNUICallback("whoami", function(data, cb)
     cb('fivem client')
@@ -67,7 +67,7 @@ Sends data to the UI from the FiveM Client.
 
 - `data` (Type: Object): An object with the data to send.
 
-FiveM Script (Client)
+**FiveM Script (Client)**
 ```lua
 SendNUIMessage({
   type = "showUI",
