@@ -100,12 +100,16 @@ Start the Next.js application.
 ```
 npm run dev
 ```
+<br>
 
-**RESOURCENAME** is your FiveM Script's name. You can rename this to whatever.
+> [!NOTE]
+> **RESOURCENAME** is your FiveM Script's name. You can rename this to whatever.
+> <br>
+> Make sure you also change **RESOURCENAME** in `nextapp/.env` to match the new name.
+
 <br>
-Make sure you also change **RESOURCENAME** in `nextapp/.env` to match the new name.
 <br>
-<br>
+
 > [!IMPORTANT]
 > Make sure the Next.js application is always running, or the FiveM NUI will stop working.
 > By default the Next.js application is listening on **port 3000**.
