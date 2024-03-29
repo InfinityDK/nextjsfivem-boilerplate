@@ -86,13 +86,8 @@ git clone https://github.com/Zuntie/nextjsfivem-boilerplate.git
 <br>
 Install NPM dependencies.
 
-```lua
-SendNUIMessage({
-  type = "showUI",
-  data = {
-    value = "FiveM Value"
-  }
-})
+```
+npm install
 ```
 <br>
 Start the Next.js application.
